@@ -1,0 +1,24 @@
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.check__icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--accent-color);
+  background: var(--white-color);
+  border-radius: 2px;
+  margin-right: 7px;
+  /* align-items: center; */
+}
+
+.checkbox:checked + .check__icon {
+  background-color: rgba(33, 150, 243, 1);
+  background-image: url("../images/full-check.svg");
+  background-size: contain;
+  background-origin: border-box;
+  border-color: rgba(33, 150, 243, 1);
+}

@@ -1,0 +1,10 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  &--margin {
+    margin-bottom: 34px;
+  }
+  &__item:not(:first-child) {
+    margin-left: 8px;
+  }
+}

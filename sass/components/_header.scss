@@ -1,0 +1,41 @@
+.header-line {
+  border-bottom: 1px solid #ececec;
+}
+.mane-header {
+  display: flex;
+  align-items: center;
+}
+.header-contacts {
+  @extend %flex-centered;
+  margin-left: auto;
+  &__item {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  &__icon {
+    fill: currentColor;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    &--letter {
+      width: 16px;
+      height: 12px;
+    }
+    &--telephon {
+      vertical-align: middle;
+      width: 10px;
+      height: 16px;
+    }
+  }
+}

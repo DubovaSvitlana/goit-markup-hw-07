@@ -1,0 +1,35 @@
+.site-nav {
+  color: var(--title-text-color);
+  display: flex;
+
+  &--margin {
+    margin-left: 93px;
+  }
+  &__link {
+    position: relative;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    &--current {
+      color: var(--accent-color);
+    }
+    &--current::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-radius: 4px;
+      background-color: var(--accent-color);
+      width: 100%;
+      height: 4px;
+    }
+    &--margin {
+      margin-right: 50px;
+    }
+  }
+}

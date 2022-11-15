@@ -1,0 +1,26 @@
+.footer-social {
+  margin-left: 70px;
+}
+.footer {
+  &__subject {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    &--margin {
+      margin-bottom: 20px;
+    }
+  }
+  &__action {
+    display: flex;
+  }
+}
+
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

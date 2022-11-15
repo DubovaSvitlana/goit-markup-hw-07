@@ -1,0 +1,20 @@
+.address {
+  &__list {
+    font-style: normal;
+  }
+  &__item {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--secondary-text-color);
+  }
+  &__margin:last-child {
+    margin-bottom: 0;
+  }
+  &__margin {
+    margin-bottom: 9px;
+    display: block;
+  }
+  &__map {
+    color: var(--white-color);
+  }
+}
